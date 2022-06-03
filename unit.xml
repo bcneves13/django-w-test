@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="rest_api.tests.WeatherEndpointWithGETListAndCityFilterTestCase-20220525124404" tests="3" file="rest_api/tests.py" time="0.212" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndCityFilterTestCase" name="test_list_matches" time="0.094" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="178">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndCityFilterTestCase" name="test_with_more_than_one_city" time="0.057" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="189">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndCityFilterTestCase" name="test_with_no_results" time="0.062" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="199">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+	<testsuite name="rest_api.tests.WeatherEndpointWithGETListAndDateFilterTestCase-20220525124404" tests="2" file="rest_api/tests.py" time="0.094" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndDateFilterTestCase" name="test_list_matches" time="0.046" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="145">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndDateFilterTestCase" name="test_with_no_results" time="0.048" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="156">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+	<testsuite name="rest_api.tests.WeatherEndpointWithGETListAndDateOrderTestCase-20220525124404" tests="2" file="rest_api/tests.py" time="0.103" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndDateOrderTestCase" name="test_asc_order_list_matches" time="0.048" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="220">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListAndDateOrderTestCase" name="test_desc_order_list_matches" time="0.055" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="229">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+	<testsuite name="rest_api.tests.WeatherEndpointWithGETListTestCase-20220525124404" tests="1" file="rest_api/tests.py" time="0.034" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETListTestCase" name="test_list_matches" time="0.034" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="125">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+	<testsuite name="rest_api.tests.WeatherEndpointWithGETSingleTestCase-20220525124404" tests="2" file="rest_api/tests.py" time="0.047" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETSingleTestCase" name="test_with_existing_record" time="0.022" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="95">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithGETSingleTestCase" name="test_with_non_existing_record" time="0.025" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="104">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+	<testsuite name="rest_api.tests.WeatherEndpointWithPOSTTestCase-20220525124404" tests="2" file="rest_api/tests.py" time="0.046" timestamp="2022-05-25T12:44:04" failures="0" errors="0" skipped="0">
+		<testcase classname="rest_api.tests.WeatherEndpointWithPOSTTestCase" name="test_with_invalid_data" time="0.023" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="71">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+		<testcase classname="rest_api.tests.WeatherEndpointWithPOSTTestCase" name="test_with_valid_data" time="0.023" timestamp="2022-05-25T12:44:04" file="rest_api\tests.py" line="62">
+			<system-out><![CDATA[]]></system-out>
+			<system-err><![CDATA[]]></system-err>
+		</testcase>
+	</testsuite>
+</testsuites>
